@@ -1,0 +1,57 @@
+/*Title section*/
+#title {
+  color: #fff;
+  background-color: #DC3545;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #DC3545;
+}
+
+.container h2 {
+  margin-top: 50px;
+}
+
+#form {
+  margin: 50px auto;
+}
+
+.form-text {
+  width: 100%;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  border-color: #DC3545;
+  border-width: thin;
+}
+
+.form-text:focus {
+  outline: none !important;
+  border-color: #F93545;
+  box-shadow: 0 0 10px #F93545;
+  border-radius:
+}
+
+mark{
+  color:#fff;
+  background-color: #F93545;
+}
+
+.love-image {
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .love-image {
+    width: 100%;
+    height: auto;
+  }
+}
